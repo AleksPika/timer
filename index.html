@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer New Year</title>
+    <link rel="shortcut icon" href="./img/favicon128x128.ico" type="image/x-icon">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-info ">
+            <h1 class="title d-flex justify-content-center">До Нового 2021 года</h1>
+            <h2 class="title-2 d-flex justify-content-center">осталось</h2>
+            <section class="timer-block row justify-content-md-center mt-5">
+                <div class="container container_full">
+                    <div class="timer-block__wrap">
+                        <div class="timer-block__column timer-block__column_end">
+                            <div class="timer-block__title">
+                                <span class="timer-block__br"></span>
+                                <span class="timer-block__br"></span>
+                            </div>
+                        </div>
+                        <div class="timer-block__column">
+                            <div class="countdown-block">
+                                <div class="countdown-block__layer countdown" id="countdown">
+                                    <div class="countdown-block__block">
+                                        <div class="countdown-block__header days countdown-time "></div>
+                                        <div class="countdown-block__footer">дней</div>
+                                    </div>
+                                    <div class="countdown-block__block">
+                                        <div class="countdown-block__header hours countdown-time"></div>
+                                        <div class="countdown-block__footer">часов</div>
+                                    </div>
+                                    <div class="countdown-block__block">
+                                        <div class="countdown-block__header minutes countdown-time"></div>
+                                        <div class="countdown-block__footer">минут</div>
+                                    </div>
+                                    <div class="countdown-block__block">
+                                        <div class="countdown-block__header seconds countdown-time"></div>
+                                        <div class="countdown-block__footer">секунд</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <canvas id=c></canvas>
+    </div>
+    <script src="app/main.js"></script>
+    <script src="app/timer.js"></script>
+</body>
+
+</html>

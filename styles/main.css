@@ -1,0 +1,64 @@
+@import url('timer.css');
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Merriweather";
+	src: url("../fonts/Merriweather-Bold.ttf") format("truetype");
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+div.container.container_full {
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.main-info {
+	position: relative;
+	z-index: 10;
+	margin-top: 10%;
+}
+
+@media screen and (max-width: 500px) {
+	.main-info {
+		margin-top: 50%;
+	}
+}
+
+.title {
+	color: white;
+	font-size: 70px;
+	font-family: Merriweather;
+}
+
+.title-2 {
+	color: white;
+	font-size: 60px;
+}
+
+@media screen and (max-width: 500px) {
+	.title {
+		color: white;
+		font-size: 30px;
+	}
+
+	.title-2 {
+		color: white;
+		font-size: 30px;
+	}
+}
