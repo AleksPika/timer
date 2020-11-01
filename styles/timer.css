@@ -43,55 +43,6 @@
     }
 }
 
-.timer-block__column_end {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-}
-
-@media (max-width: 992px) {
-    .timer-block__column_end {
-        margin-bottom: 18px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-}
-
-.timer-block__title {
-    display: block;
-    font-family: RubikMedium;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.3;
-    color: #060af3;
-    text-transform: uppercase;
-    padding-top: 6px;
-}
-
-@media (max-width: 992px) {
-    .timer-block__title {
-        font-size: 15px;
-        text-align: center;
-    }
-}
-
-.timer-block__br {
-    display: block;
-}
-
-@media (max-width: 1024px) {
-    .timer-block__br {
-        display: inline;
-    }
-}
-
 .countdown-block__layer {
     display: -webkit-box;
     display: -webkit-flex;
