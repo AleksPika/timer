@@ -36,5 +36,5 @@ function initializeClock(id, endtime) {
     let timeinterval = setInterval(updateClock, 1000);
 }
 
-let deadline="January 01 2021 00:00:01 GMT+0200"; 
+let deadline="January 01 2022 00:00:01 GMT+0200"; 
 initializeClock('countdown', deadline);
